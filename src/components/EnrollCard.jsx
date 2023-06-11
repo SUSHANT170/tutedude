@@ -2,7 +2,6 @@ import React from 'react'
 import { Card } from 'antd';
 import '../CSS/EnrolledCard.css'
 function EnrollCard({ friendsData }) {
-    console.log("PPPPP", friendsData);
     const { name, date, courses, amount } = friendsData
     return (
         <>
