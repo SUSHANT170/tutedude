@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Joan&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon{
+    display: flex;
+    margin-left: 2rem;
+    width:31rem
+}
+.icon__image{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #EEAEAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon__content{
+    margin-left: 1rem;
+}
+.work__image{
+    height: 1rem;
+    /* position: relative;
+    left: 0.7rem;
+    top: 0.7rem; */
+    filter: drop-shadow(0 0 0.75rem #f89b29)
+
+}
+
+@media (max-width:1075px) {
+    .icon{
+        margin-left: 2rem;
+        width:20rem
+    }
+}
+@media (max-width:695px) {
+    .icon{
+        margin-left: 2rem;
+        width:29rem
+    }
+}
+@media (max-width:493px) {
+    .icon{
+        margin-left: 2rem;
+        width:18rem
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Joan&family=Pacifico&display=swap');
+
+.enrolled__card {
+    background: #CF7419;
+    background: linear-gradient(to right, #CF7419 0%, #1E114F 100%);
+    margin: 0.5rem;
+}
+.enrolled__card__heading{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.enrolled__card__content{
+    width: 21rem;
+    height: 6.5rem;
+    /* border: 2px solid red; */
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.enrolled__card__content>li{
+    border: 0.1px solid white;
+    border-radius: 1rem;
+    background: transparent;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: fit-content;
+    letter-spacing: 1px;
+}
+.enrolled__card__content::-webkit-scrollbar {
+    display: none;
+  }
+  @media (max-width:513px) {
+    .enrolled__card{
+        width: 322px !important;
+        margin: 0rem;
+    }
+  }
+  @media (max-width:420px) {
+    .enrolled__card{
+        width: 275px !important;
+        height:250px !important ;
+        margin: 0rem;
+    }
+    .enrolled__card__content{
+        width:16rem
+    }
+  }
+  @media (max-width:342px) {
+    .enrolled__card{
+        width: 185px !important;
+        margin: 0rem;
+    }
+    .enrolled__card__content{
+        width:9rem
+    }
+  }

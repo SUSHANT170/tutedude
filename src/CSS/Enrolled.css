@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Joan&family=Pacifico&display=swap');
+
+.enroll__btn{
+    color: purple;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-left: 12.5rem;
+    cursor: pointer;
+}
+.enroll{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 12rem;
+    flex-wrap: wrap;
+}
+@media (max-width:760px) {
+    .enroll{
+        margin-left: 4rem;
+
+    }
+    .enroll__btn{
+        color: purple;
+        font-weight: 700;
+        margin-bottom: 8px;
+        margin-left: 5rem;
+        cursor: pointer;
+    }
+}
